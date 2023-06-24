@@ -17,6 +17,7 @@ export const Sidebar: FC = () => {
                         ['.health', 'https://v3x.health'],
                         ['.contact', 'https://v3x.contact'],
                         ['.domains', 'https://v3x.domains'],
+                        ['.team', 'https://v3x.team'],
                         ['.chat', 'https://v3x.chat'],
                     ].map(([label, href]) => (
                         <li key={label}>
@@ -24,7 +25,7 @@ export const Sidebar: FC = () => {
                                 href={href}
                                 className={[
                                     'hover:text-blue-500 hover:underline',
-                                    label == '.health'
+                                    label == '.team'
                                         ? 'text-blue-500'
                                         : 'text-notblack',
                                 ].join(' ')}
