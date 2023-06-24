@@ -63,6 +63,11 @@ export const list: Person[] = [
 
 export const general_contributors: Person[] = [
     {
+        name: 'Laith',
+        avatar: '/contributor/laith.jpeg',
+        url: 'https://laith.app/',
+    },
+    {
         name: 'Miguel Piedrafita',
         avatar: '/contributor/miguel.jpeg',
         url: 'https://miguel.build/',
