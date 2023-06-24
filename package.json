@@ -12,7 +12,7 @@
         "postcss-config": "tsc postcss.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
         "tailwind-config": "tsc tailwind.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
         "next-config": "tsc next.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
-        "lint": "eslint -c .eslintrc.json --ext .tsx ./app",
+        "lint": "eslint -c .eslintrc.json --ext .tsx ./app"
     },
     "keywords": [],
     "author": "",
