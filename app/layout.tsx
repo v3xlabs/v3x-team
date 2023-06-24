@@ -8,7 +8,8 @@ import { Sidebar } from '../components/Sidebar/Sidebar';
 
 export const metadata = {
     title: 'V3X Team & Contributors',
-    description: '',
+    description:
+        'We are a community of open-source developers driven to make a difference. Here are some of our recent contributors',
 };
 export default function RootLayout({
     children,
