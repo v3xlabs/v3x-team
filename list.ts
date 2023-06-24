@@ -3,6 +3,7 @@ type Person = {
     name: string;
     title?: string;
     url?: string;
+    slug?: string;
 };
 
 export const list: Person[] = [
@@ -10,6 +11,7 @@ export const list: Person[] = [
         name: 'Luc van Kampen',
         title: 'Lead Researcher',
         avatar: '/team/luc.png',
+        slug: 'luc',
     },
     {
         name: 'Antonio Fran Štignjedec',
