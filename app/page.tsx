@@ -51,6 +51,7 @@ export default function App() {
                         {general_contributors.map((member, index) => (
                             <a
                                 href={member.url}
+                                target="_blank"
                                 className="relative aspect-square h-12 w-12 overflow-hidden bg-neutral-300"
                                 key={index}
                             >
