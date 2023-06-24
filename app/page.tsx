@@ -52,18 +52,18 @@ export default function App() {
                             <a
                                 href={member.url}
                                 target="_blank"
-                                className="relative aspect-square h-12 w-12 overflow-hidden bg-neutral-300"
+                                className="group relative aspect-square h-12 w-12 overflow-hidden bg-neutral-300"
                                 key={index}
                             >
                                 {member.avatar && (
                                     <img
                                         src={member.avatar}
                                         alt={member.name}
-                                        className="h-full w-full object-cover grayscale"
+                                        className="h-full w-full object-cover grayscale group-hover:grayscale-0"
                                     />
                                 )}
                                 {!member.avatar && (
-                                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-3xl grayscale">
+                                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-3xl grayscale group-hover:grayscale-0">
                                         🤷‍♀️
                                     </div>
                                 )}
