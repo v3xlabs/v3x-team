@@ -49,7 +49,7 @@ export default function RootLayout({
                 />
             </head>
             <body
-                className="grid min-h-screen w-full"
+                className="min-h-screen w-full lg:grid"
                 style={{ gridTemplateColumns: '1fr auto 1fr' }}
             >
                 <Sidebar />
