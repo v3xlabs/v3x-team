@@ -12,13 +12,14 @@
         "postcss-config": "tsc postcss.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
         "tailwind-config": "tsc tailwind.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
         "next-config": "tsc next.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
-        "lint": "eslint -c .eslintrc.json --ext .ts ./src"
+        "lint": "eslint -c .eslintrc.json --ext .tsx ./app",
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
         "autoprefixer": "^10.4.14",
+        "eslint-plugin-tailwindcss": "^3.12.1",
         "next": "^13.4.6",
         "postcss": "^8.4.24",
         "tailwindcss": "^3.3.2"

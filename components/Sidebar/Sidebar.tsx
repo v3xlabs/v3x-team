@@ -2,10 +2,10 @@ import { FC } from 'react';
 
 export const Sidebar: FC = () => {
     return (
-        <header className="w-auto p-8 flex flex-col gap-4">
+        <header className="flex w-auto flex-col gap-4 p-8">
             <div className="flex flex-col justify-center whitespace-nowrap">
-                <div className="bg-notblack w-fit font-bold">
-                    <span className="text-white -1 mx-3">v3xlabs</span>
+                <div className="w-fit bg-notblack font-bold">
+                    <span className="-1 mx-3 text-white">v3xlabs</span>
                 </div>
                 <div>Empowering open-source</div>
             </div>

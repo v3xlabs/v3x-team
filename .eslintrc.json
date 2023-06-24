@@ -4,13 +4,15 @@
         "ecmaVersion": 2021
     },
     "extends": [
-        "plugin:v3xlabs/recommended"
+        "plugin:v3xlabs/recommended",
+        "plugin:tailwindcss/recommended"
     ],
     "ignorePatterns": [
         "!**/*"
     ],
     "plugins": [
-        "v3xlabs"
+        "v3xlabs",
+        "tailwindcss"
     ],
     "env": {
         "node": true

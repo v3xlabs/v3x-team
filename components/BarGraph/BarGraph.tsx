@@ -12,7 +12,7 @@ export const BarGraph: FC<{
     return (
         <>
             {title && <div>{title}</div>}
-            <div className="flex items-end gap-[0.2ch] h-[1rem]">
+            <div className="flex h-[1rem] items-end gap-[0.2ch]">
                 {Array.from({ length: total }).map((_, index) => {
                     // value between 0-100
                     const percent =
