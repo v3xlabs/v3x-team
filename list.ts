@@ -17,39 +17,47 @@ export const list: Person[] = [
         name: 'Antonio Fran Štignjedec',
         title: 'Researcher',
         avatar: '/team/antony.png',
+        slug: 'antony',
     },
     {
         name: 'Jakob Helgesson',
         title: 'Researcher',
         avatar: '/team/jakob.png',
+        slug: 'jakob',
     },
     {
         name: 'Elliot Lindberg',
         title: 'Researcher',
+        slug: 'elliot',
     },
     {
         name: 'Ana Howard',
         title: 'Researcher',
         avatar: '/team/ana.webp',
+        slug: 'ana',
     },
     {
         name: 'Prokop Schield',
         title: 'Researcher',
+        slug: 'prokop',
     },
     {
         name: 'Harry Bairstow',
         title: 'Researcher',
         avatar: '/team/harry.png',
+        slug: 'harry',
     },
     {
         name: 'Dercio Hoffman',
         title: 'Researcher',
         avatar: '/team/dercio.png',
+        slug: 'dercio',
     },
     {
         name: 'Jonatan Holmgren',
         title: 'Researcher',
         avatar: '/team/jonte.png',
+        slug: 'jonte',
     },
 ];
 

@@ -14,7 +14,11 @@ export default function App() {
                     <div>Team ✨</div>
                     <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
                         {list.map((member, index) => (
-                            <div key={index} className="group flex w-full">
+                            <a
+                                href={`/${member.slug}`}
+                                key={index}
+                                className="group flex w-full"
+                            >
                                 <div className="relative aspect-square h-24 w-24 overflow-hidden bg-neutral-300">
                                     {member.avatar && (
                                         <img
@@ -37,7 +41,7 @@ export default function App() {
                                         {member.title ?? 'Contributor'}
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         ))}
                     </div>
                 </div>
