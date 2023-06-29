@@ -51,6 +51,7 @@ export default function App() {
                         {general_contributors.map((member, index) => (
                             <a
                                 href={member.url}
+                                rel="nofollow"
                                 target="_blank"
                                 className="group relative aspect-square h-12 w-12 overflow-hidden bg-neutral-300"
                                 key={index}
@@ -59,6 +60,7 @@ export default function App() {
                                     <img
                                         src={member.avatar}
                                         alt={member.name}
+                                        loading="lazy"
                                         className="h-full w-full object-cover grayscale group-hover:grayscale-0"
                                     />
                                 )}

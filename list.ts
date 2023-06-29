@@ -2,7 +2,7 @@ type Person = {
     avatar?: string;
     name: string;
     title?: string;
-    url?: string;
+    url?: `https://${string}` | `http://${string}`;
     slug?: string;
 };
 
@@ -135,7 +135,7 @@ export const general_contributors: Person[] = [
     {
         name: 'JoelImgu',
         avatar: '/contributor/joelimgu.png',
-        url: 'joelimgu.github.io',
+        url: 'https://joelimgu.github.io',
     },
     {
         name: 'Oğuz Eray Orhan',

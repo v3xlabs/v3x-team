@@ -47,6 +47,7 @@ export default function RootLayout({
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
+                <meta name="description" content={metadata.description} />
             </head>
             <body
                 className="min-h-screen w-full lg:grid"
