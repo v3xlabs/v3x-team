@@ -1,5 +1,5 @@
 type Person = {
-    avatar?: string;
+    avatar?: `${string}.webp`;
     name: string;
     title?: string;
     url?: `https://${string}` | `http://${string}`;
@@ -10,19 +10,19 @@ export const list: Person[] = [
     {
         name: 'Luc van Kampen',
         title: 'Lead Researcher',
-        avatar: '/team/luc.png',
+        avatar: '/team/luc.webp',
         slug: 'luc',
     },
     {
         name: 'Antonio Fran Štignjedec',
         title: 'Researcher',
-        avatar: '/team/antony.png',
+        avatar: '/team/antony.webp',
         slug: 'antony',
     },
     {
         name: 'Jakob Helgesson',
         title: 'Researcher',
-        avatar: '/team/jakob.png',
+        avatar: '/team/jakob.webp',
         slug: 'jakob',
     },
     {
@@ -44,19 +44,19 @@ export const list: Person[] = [
     {
         name: 'Harry Bairstow',
         title: 'Researcher',
-        avatar: '/team/harry.png',
+        avatar: '/team/harry.webp',
         slug: 'harry',
     },
     {
         name: 'Dercio Hoffman',
         title: 'Researcher',
-        avatar: '/team/dercio.png',
+        avatar: '/team/dercio.webp',
         slug: 'dercio',
     },
     {
         name: 'Jonatan Holmgren',
         title: 'Researcher',
-        avatar: '/team/jonte.png',
+        avatar: '/team/jonte.webp',
         slug: 'jonte',
     },
 ];
@@ -64,82 +64,82 @@ export const list: Person[] = [
 export const general_contributors: Person[] = [
     {
         name: 'Laith',
-        avatar: '/contributor/laith.jpeg',
+        avatar: '/contributor/laith.webp',
         url: 'https://laith.app/',
     },
     {
         name: 'Miguel Piedrafita',
-        avatar: '/contributor/miguel.jpeg',
+        avatar: '/contributor/miguel.webp',
         url: 'https://miguel.build/',
     },
     {
         name: 'Hattorius',
-        avatar: '/contributor/hatty.jpeg',
+        avatar: '/contributor/hatty.webp',
         url: 'https://xlogic.sh/',
     },
     {
         name: 'Joshua Hendrix',
-        avatar: '/contributor/josh.jpeg',
+        avatar: '/contributor/josh.webp',
         url: 'https://github.com/thejoshuahendrix',
     },
     {
         name: 'Derock',
-        avatar: '/contributor/derock.jpeg',
+        avatar: '/contributor/derock.webp',
         url: 'https://derock.dev/',
     },
     {
         name: 'Visen',
-        avatar: '/contributor/visen.jpeg',
+        avatar: '/contributor/visen.webp',
         url: 'https://visen.dev/',
     },
     {
         name: 'Alan',
-        avatar: '/contributor/vlan.jpeg',
+        avatar: '/contributor/vlan.webp',
         url: 'https://github.com/imvlan',
     },
     {
         name: 'Samvel Petrosyan',
-        avatar: '/contributor/loidnoir.jpeg',
+        avatar: '/contributor/loidnoir.webp',
         url: 'https://github.com/loidnoir',
     },
     {
         name: 'Jonah "Jay" Y-M',
-        avatar: '/contributor/tgtechie.jpeg',
+        avatar: '/contributor/tgtechie.webp',
         url: 'https://github.com/TG-Techie',
     },
     {
         name: 'Michael Desormeaux',
-        avatar: '/contributor/michaeldesormeaux.jpeg',
+        avatar: '/contributor/michaeldesormeaux.webp',
         url: 'https://home.mikedez.com/',
     },
     {
         name: 'Carlos A',
-        avatar: '/contributor/chalkedgoodse.jpeg',
+        avatar: '/contributor/chalkedgoodse.webp',
         url: 'https://www.carlosalba.dev/',
     },
     {
         name: 'Will (0xEquinox)',
-        avatar: '/contributor/equinox.png',
+        avatar: '/contributor/equinox.webp',
         url: 'https://github.com/0xEquinox',
     },
     {
         name: 'Kristóf Kékesi',
-        avatar: '/contributor/kristof.jpeg',
+        avatar: '/contributor/kristof.webp',
         url: 'https://kekesi.dev',
     },
     {
         name: 'MilkedCow',
-        avatar: '/contributor/milkedcow.png',
+        avatar: '/contributor/milkedcow.webp',
         url: 'https://github.com/MilkedCow',
     },
     {
         name: 'JoelImgu',
-        avatar: '/contributor/joelimgu.png',
+        avatar: '/contributor/joelimgu.webp',
         url: 'https://joelimgu.github.io',
     },
     {
         name: 'Oğuz Eray Orhan',
-        avatar: '/contributor/oguzeray.jpeg',
+        avatar: '/contributor/oguzeray.webp',
         url: 'https://github.com/oguzeray',
     },
 ];
