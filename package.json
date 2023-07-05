@@ -12,11 +12,13 @@
         "postcss-config": "tsc postcss.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
         "tailwind-config": "tsc tailwind.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
         "next-config": "tsc next.config.ts --skipLibCheck --module commonjs --target es2015 --esModuleInterop true --allowSyntheticDefaultImports true --moduleResolution node",
-        "lint": "eslint -c .eslintrc.json --ext .tsx ./app"
+        "lint": "eslint -c .eslintrc.json --ext .tsx ./app",
+        "optimize-contributor": "cwebp -q 80 -resize 54 54 $INPUT -o ./public/contibutor/$SLUG.webp && mv $INPUT /tmp",
+        "optimize-team": "cwebp -q 80 -resize 108 108 $INPUT -o ./public/team/$SLUG.webp && mv $INPUT /tmp"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "V3X Labs",
+    "license": "GPL-3.0-or-later",
     "dependencies": {
         "autoprefixer": "^10.4.14",
         "eslint-plugin-tailwindcss": "^3.12.1",
