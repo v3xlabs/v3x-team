@@ -1,7 +1,7 @@
-import { list } from '../../list';
+import { teamSparkles } from '../../list';
 
 export default function Page({ params }: { params: { member: string } }) {
-    const member = list.find((person) => person.slug === params.member);
+    const member = teamSparkles.find((person) => person.slug === params.member);
 
     if (!member) return <div>This member does not exist 🤷‍♀️</div>;
 
@@ -21,7 +21,7 @@ export default function Page({ params }: { params: { member: string } }) {
 
 // eslint-disable-next-line unicorn/prevent-abbreviations
 export async function generateStaticParams() {
-    return list
+    return teamSparkles
         .filter((person) => person.slug)
         .map((person) => ({
             member: person.slug,

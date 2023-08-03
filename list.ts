@@ -6,7 +6,7 @@ type Person = {
     slug?: string;
 };
 
-export const list: Person[] = [
+export const teamSparkles: Person[] = [
     {
         name: 'Luc van Kampen',
         title: 'Lead Researcher',
@@ -36,6 +36,9 @@ export const list: Person[] = [
         avatar: '/team/harry.webp',
         slug: 'harry',
     },
+];
+
+export const team2: Person[] = [
     {
         name: 'Prokop Schield',
         title: 'Nodesite Engineer',

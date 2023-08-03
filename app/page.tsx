@@ -1,4 +1,4 @@
-import { general_contributors, list } from '../list';
+import { general_contributors, team2, teamSparkles } from '../list';
 
 export default function App() {
     return (
@@ -13,7 +13,7 @@ export default function App() {
                 <div className="mt-4">
                     <div>Team ✨</div>
                     <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
-                        {list.map((member, index) => (
+                        {teamSparkles.map((member, index) => (
                             <a
                                 href={`/${member.slug}`}
                                 key={index}
@@ -42,6 +42,37 @@ export default function App() {
                                     </div>
                                 </div>
                             </a>
+                        ))}
+                    </div>
+                </div>
+                <div className="mt-4">
+                    <div>Team 🌱</div>
+                    <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
+                        {team2.map((member, index) => (
+                            <div key={index} className="group flex w-full">
+                                <div className="relative aspect-square h-14 w-14 overflow-hidden bg-neutral-300">
+                                    {member.avatar && (
+                                        <img
+                                            src={member.avatar}
+                                            alt=""
+                                            className="h-full w-full object-cover grayscale transition-all group-hover:grayscale-0"
+                                        />
+                                    )}
+                                    {!member.avatar && (
+                                        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-4xl grayscale transition-all group-hover:grayscale-0">
+                                            🤷‍♀️
+                                        </div>
+                                    )}
+                                </div>
+                                <div className="w-auto grow px-3 py-2 group-hover:bg-neutral-200/10 group-hover:font-bold">
+                                    <div className="">
+                                        {member.name ?? 'Unknown Contributor'}
+                                    </div>
+                                    <div className="text-neutral-400">
+                                        {member.title ?? 'Contributor'}
+                                    </div>
+                                </div>
+                            </div>
                         ))}
                     </div>
                 </div>
