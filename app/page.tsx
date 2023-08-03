@@ -19,21 +19,23 @@ export default function App() {
                                 key={index}
                                 className="group flex w-full"
                             >
-                                <div className="relative aspect-square h-24 w-24 overflow-hidden bg-neutral-300">
-                                    {member.avatar && (
-                                        <img
-                                            src={member.avatar}
-                                            alt=""
-                                            className="h-full w-full object-cover grayscale transition-all group-hover:grayscale-0"
-                                        />
-                                    )}
-                                    {!member.avatar && (
-                                        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-6xl grayscale transition-all group-hover:grayscale-0">
-                                            🤷‍♀️
-                                        </div>
-                                    )}
+                                <div className="w-24">
+                                    <div className="relative aspect-square h-24 w-24 overflow-hidden bg-neutral-300">
+                                        {member.avatar && (
+                                            <img
+                                                src={member.avatar}
+                                                alt=""
+                                                className="h-full w-full object-cover grayscale transition-all group-hover:grayscale-0"
+                                            />
+                                        )}
+                                        {!member.avatar && (
+                                            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-6xl grayscale transition-all group-hover:grayscale-0">
+                                                🤷‍♀️
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
-                                <div className="w-auto grow p-4 group-hover:bg-neutral-200/10 group-hover:font-bold">
+                                <div className="w-auto grow p-4 pr-0 group-hover:bg-neutral-200/10 group-hover:font-bold">
                                     <div className="">
                                         {member.name ?? 'Unknown Contributor'}
                                     </div>
