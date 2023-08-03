@@ -15,37 +15,31 @@ export const list: Person[] = [
     },
     {
         name: 'Antonio Fran Štignjedec',
-        title: 'Researcher',
+        title: 'Esoteric Code Magician',
         avatar: '/team/antony.webp',
         slug: 'antony',
     },
     {
         name: 'Jakob Helgesson',
-        title: 'Researcher',
+        title: 'Validation Overlord',
         avatar: '/team/jakob.webp',
         slug: 'jakob',
     },
     {
         name: 'Elliot Lindberg',
-        title: 'Researcher',
+        title: 'Boeing-777 Pilot',
         slug: 'elliot',
     },
     {
-        name: 'Ana Howard',
-        title: 'Researcher',
-        avatar: '/team/ana.webp',
-        slug: 'ana',
+        name: 'Harry Bairstow',
+        title: 'Distributed Systems Engineer',
+        avatar: '/team/harry.webp',
+        slug: 'harry',
     },
     {
         name: 'Prokop Schield',
-        title: 'Researcher',
+        title: 'Nodesite Engineer',
         slug: 'prokop',
-    },
-    {
-        name: 'Harry Bairstow',
-        title: 'Researcher',
-        avatar: '/team/harry.webp',
-        slug: 'harry',
     },
     {
         name: 'Dercio Hoffman',
@@ -58,6 +52,12 @@ export const list: Person[] = [
         title: 'Researcher',
         avatar: '/team/jonte.webp',
         slug: 'jonte',
+    },
+    {
+        name: 'Ana Howard',
+        title: 'Researcher',
+        avatar: '/team/ana.webp',
+        slug: 'ana',
     },
 ];
 
