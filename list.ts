@@ -26,11 +26,6 @@ export const teamSparkles: Person[] = [
         slug: 'jakob',
     },
     {
-        name: 'Elliot Lindberg',
-        title: 'Boeing-777 Pilot',
-        slug: 'elliot',
-    },
-    {
         name: 'Harry Bairstow',
         title: 'Distributed Systems Engineer',
         avatar: '/team/harry.webp',
@@ -61,6 +56,11 @@ export const team2: Person[] = [
         title: 'Researcher',
         avatar: '/team/ana.webp',
         slug: 'ana',
+    },
+    {
+        name: 'Elliot Lindberg',
+        title: 'Boeing-777 Pilot',
+        slug: 'elliot',
     },
 ];
 

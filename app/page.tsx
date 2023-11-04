@@ -14,8 +14,7 @@ export default function App() {
                     <div>Team ✨</div>
                     <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
                         {teamSparkles.map((member, index) => (
-                            <a
-                                href={`/${member.slug}`}
+                            <span
                                 key={index}
                                 className="group flex w-full"
                             >
@@ -43,7 +42,7 @@ export default function App() {
                                         {member.title ?? 'Contributor'}
                                     </div>
                                 </div>
-                            </a>
+                            </span>
                         ))}
                     </div>
                 </div>
