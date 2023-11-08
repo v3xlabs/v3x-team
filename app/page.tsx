@@ -14,10 +14,7 @@ export default function App() {
                     <div>Team ✨</div>
                     <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
                         {teamSparkles.map((member, index) => (
-                            <span
-                                key={index}
-                                className="group flex w-full"
-                            >
+                            <span key={index} className="group flex w-full">
                                 <div className="w-24">
                                     <div className="relative aspect-square h-24 w-24 overflow-hidden bg-neutral-300">
                                         {member.avatar && (

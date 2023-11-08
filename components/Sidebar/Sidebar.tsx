@@ -5,7 +5,7 @@ export const Sidebar: FC = () => {
         <header className="flex w-auto flex-col gap-4 p-8">
             <div className="flex flex-col justify-center whitespace-nowrap">
                 <div className="w-fit bg-notblack font-bold">
-                    <span className="-1 mx-3 text-white">v3xlabs</span>
+                    <span className="mx-3 text-white">v3xlabs</span>
                 </div>
                 <div>Empowering open-source</div>
             </div>
