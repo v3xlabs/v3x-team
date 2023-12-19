@@ -58,7 +58,7 @@ export const team2: Person[] = [
     },
     {
         name: 'Harry Bairstow',
-        title: 'Distributed Systems Engineer',
+        title: 'DS Engineer',
         avatar: '/team/harry.webp',
         slug: 'harry',
     },
