@@ -14,12 +14,6 @@ export const teamSparkles: Person[] = [
         slug: 'luc',
     },
     {
-        name: 'Antonio Fran Štignjedec',
-        title: 'Esoteric Code Magician',
-        avatar: '/team/antony.webp',
-        slug: 'antony',
-    },
-    {
         name: 'Jakob Helgesson',
         title: 'Validation Overlord',
         avatar: '/team/jakob.webp',
@@ -55,6 +49,12 @@ export const team2: Person[] = [
         name: 'Elliot Lindberg',
         title: 'Boeing-777 Pilot',
         slug: 'elliot',
+    },
+    {
+        name: 'Antonio Fran Trstenjak',
+        title: 'Esoteric Code Magician',
+        avatar: '/team/antony.webp',
+        slug: 'antony',
     },
     {
         name: 'Harry Bairstow',
