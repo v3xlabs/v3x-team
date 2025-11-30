@@ -27,10 +27,11 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Edgeserver Upload
-        uses: lvkdotsh/edgeserver-action@master
+      - name: Edgeserver v0.2 Upload
+        uses: v3xlabs/edgeserver-upload@v0.2.1-pre.4
         with:
-          app_id: "195385987843493888"
-          server: https://api.edgeserver.io
-          token: ${{ secrets.SIGNAL_TOKEN }}
+          site_id: s_4012837396
+          server: https://edgeserver.dev/api
+          token: ${{ secrets.EDGE_TOKEN }}
           directory: dist
+          context: true
